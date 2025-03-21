@@ -1,0 +1,48 @@
+.navbar{
+    display:flex ;
+    justify-content: space-between;
+}
+.navbar-list{
+    display:flex;
+    list-style-type: none;
+    justify-content:space-between;
+}
+.logo{
+
+    display:flex;
+}
+.navbar-designation{
+
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.footer{
+
+    display:flex ;
+    justify-content: space-between;
+
+}
+.footer-list{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.greeting{
+    font-size: 50px;
+    font-weight :bolder
+}
+
+.left{
+    background-color: antiquewhite;
+height:450px;
+width:460px;
+margin-right:30px ;
+padding:40px ;
+
+}
