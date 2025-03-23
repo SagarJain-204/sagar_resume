@@ -1,10 +1,22 @@
 .navbar{
     display:flex ;
+    width: 1350px;
+    height: 90px;
+    border: 1px solid black;
     justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    right: 1;
+    left: 0;
+
+
 }
 .navbar-list{
     display:flex;
     list-style-type: none;
+    justify-content: flex-end;
+ 
 }
 .logo{
 
@@ -20,6 +32,8 @@
 
     display:flex ;
     justify-content: space-between;
+    position: sticky;
+
 
 }
 .footer-list{
@@ -28,6 +42,7 @@
     justify-content: space-between;
 }
 .content{
+    
     display: flex;
     justify-content: flex-start;
     margin-right: 40px;

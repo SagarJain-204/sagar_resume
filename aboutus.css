@@ -1,8 +1,4 @@
-img{
 
-    height:200px;
-    width: 200px;
-}
 h1{
     font-size: 170px;
     border: 2px solid black;
@@ -10,4 +6,60 @@ h1{
 .main{
     display: flex;
     align-items: center;
+}
+img{
+
+    height: 90px;
+    width: 90px;
+    border: 1px solid black;
+}
+.navbar{
+    display:flex ;
+    width: 1550px;
+    height: 90px;
+    border: 1px solid black;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    right: 1;
+    left: 0;
+
+
+}
+.navbar-list{
+    display:flex;
+    list-style-type: none;
+    justify-content: flex-end;
+ 
+}
+
+.navbar-designation{
+
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.home{
+    font-size: larger;
+    position:fixed;
+    bottom:0;
+}
+li{
+
+    margin: 24px;
+}
+.name{
+    font-size: 60px;
+
+}
+i{
+    display: flex;
+    flex-direction: row;
+border:3px solid black;
+    padding: 8px;
+    font-size: 40px;
+    border-radius: 50px;
+    justify-content: flex-end;
+
 }

@@ -1,8 +1,16 @@
-.main{
-    color:blue;
-    height:200px;
-    width:1000px;
-    border:2px solid black;
-    padding: 20px;
+.head{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large   ;
 
+}
+input{
+    width: 400px;
+}
+.message{
+    height:200px;
+}
+.info{
+    border: 1px solid black;
+    padding: 5px;
 }
