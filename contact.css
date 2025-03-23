@@ -12,5 +12,22 @@ input{
 }
 .info{
     border: 1px solid black;
-    padding: 5px;
+    padding: 10px;
+    width: 410px;
+    margin-right: 100px;
+}
+i{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+.body{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    margin-left: 60px;
+
+
 }

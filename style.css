@@ -12,6 +12,9 @@
 
 
 }
+img{
+    margin-right: 10px;
+}
 .navbar-list{
     display:flex;
     list-style-type: none;
@@ -52,7 +55,9 @@
     font-size: 50px;
     font-weight :bolder
 }
-
+.right{
+    margin-left: 80px;
+}
 .left{
     background-color: antiquewhite;
 height:450px;

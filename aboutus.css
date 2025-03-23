@@ -1,21 +1,20 @@
 
-h1{
-    font-size: 170px;
-    border: 2px solid black;
-}
-.main{
-    display: flex;
-    align-items: center;
-}
 img{
 
     height: 90px;
     width: 90px;
     border: 1px solid black;
+    margin-right: 10px;
+}
+
+.home{
+    font-size: larger;
+    position:fixed;
+    bottom:0;
 }
 .navbar{
     display:flex ;
-    width: 1550px;
+    width: 1350px;
     height: 90px;
     border: 1px solid black;
     justify-content: space-between;
@@ -33,26 +32,20 @@ img{
     justify-content: flex-end;
  
 }
+.logo{
 
+    display:flex;
+}
+li{
+
+    margin: 20px;
+}
 .navbar-designation{
 
     font-size: 20px;
     font-weight: lighter;
 }
 
-.home{
-    font-size: larger;
-    position:fixed;
-    bottom:0;
-}
-li{
-
-    margin: 24px;
-}
-.name{
-    font-size: 60px;
-
-}
 i{
     display: flex;
     flex-direction: row;
