@@ -33,6 +33,7 @@ i{
 }
 .navbar{
     display:flex ;
+    flex-direction: row;
     width: 1350px;
     height: 90px;
     border: 1px solid black;
