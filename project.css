@@ -6,3 +6,39 @@
     padding: 20px;
 
 }
+.navbar{
+    display:flex ;
+    width: 1350px;
+    height: 90px;
+    border: 1px solid black;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
+}
+img{
+    margin-right: 10px;
+}
+.navbar-list{
+    display:flex;
+    list-style-type: none;
+    justify-content: flex-end;
+ 
+}
+.logo{
+
+    display:flex;
+}
+.navbar-designation{
+
+    font-size: 20px;
+    font-weight: lighter;
+}
+li{
+
+    margin: 20px;
+}
